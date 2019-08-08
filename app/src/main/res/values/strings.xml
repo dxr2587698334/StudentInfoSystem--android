@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">学生信息录入系统</string>
+    <string name="name_label">姓名:</string>
+    <string name="stu_id_label">学号:</string>
+    <string name="sex_label">性别:</string>
+    <string name="id_number_label">身份证号:</string>
+    <string name="stu_class_label">班级:</string>
+    <string name="school_abel">所在学院:</string>
+    <string name="major_label">专业:</string>
+    <string name="phone_label">电话:</string>
+    <string name="email_label">电子邮箱:</string>
+    <string name="weixin_label">微信号:</string>
+    <string name="music">音乐</string>
+    <string name="arts">美术</string>
+    <string name="handwriting">书法</string>
+    <string name="basketball">篮球</string>
+    <string name="football">足球</string>
+    <string name="swimming">游泳</string>
+    <string name="native_place_label">籍贯:</string>
+    <string name="birthday_label">生日:</string>
+    <string name="year_label">年</string>
+    <string name="month_label">月</string>
+    <string name="day_label">日</string>
+    <string name="special_skill_label">特长:</string>
+    <string name="entry_button_label">进入</string>
+    <string name="next_button">下一步</string>
+    <string name="commit_button">提交</string>
+    <string name="woman">女</string>
+    <string name="man">男</string>
+    <string-array name="schoollist">
+        <item>光电工程学院 </item>
+        <item>机电工程学院</item>
+        <item>材料与化学工程学院</item>
+        <item>电子信息工程学院</item>
+        <item>经济管理学院</item>
+        <item>计算机科学与工程学院</item>
+        <item>建筑工程学院</item>
+        <item>外国语学院</item>
+        <item>人文学院</item>
+        <item>理学院</item>
+        <item>体育学院</item>
+        <item>艺术与传媒学院</item>
+        <item>中国书法学院</item>
+    </string-array>
+</resources>
