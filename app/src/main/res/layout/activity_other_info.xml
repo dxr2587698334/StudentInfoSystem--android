@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".OtherInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:paddingEnd="50dp"
+        android:paddingStart="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_label" />
+
+        <EditText
+            android:id="@+id/phone_label"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:paddingEnd="50dp"
+        android:paddingStart="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/email_label" />
+
+        <EditText
+            android:id="@+id/email_label"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:paddingEnd="50dp"
+        android:paddingStart="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/weixin_label" />
+
+        <EditText
+            android:id="@+id/weixin_label"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:paddingEnd="50dp"
+        android:paddingStart="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/special_skill_label" />
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <CheckBox
+                android:id="@+id/music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/music" />
+
+            <CheckBox
+                android:id="@+id/arts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/arts" />
+
+            <CheckBox
+                android:id="@+id/handwriting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/handwriting" />
+
+            <CheckBox
+                android:id="@+id/basketball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/music" />
+
+            <CheckBox
+                android:id="@+id/football"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/basketball" />
+
+            <CheckBox
+                android:id="@+id/swimming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/music" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:onClick="submit"
+        android:text="提交"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
